@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fit Connect - Entrar</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('imagens/aa.jpg'); /* Substitua 'imagem-de-fundo.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+  }
+  .login-container h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  .login-form input {
+    width: 100%;
+    padding: 12px 2px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .login-form button:hover {
+    background-color: #45a049;
+  }
+</style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Bem-vindo ao Fit Connect</h2>
+    <form class="login-form" action="login.php" method="post">
+      <input type="text" name="username" placeholder="Nome de Usuário" required>
+      <input type="password" name="password" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+    <p>Não tem uma conta? <a href="javascript:void(0);" onclick="cadastrarUsuario()">Cadastre-se</a></p>
+  </div>
+<script>
+var usuarios = [];
+
+function cadastrarUsuario() {
+  var novoUsuario = prompt("Digite o nome de usuário para cadastrar:");
+  var novaSenha = prompt("Digite a senha para o novo usuário:");
+
+  if (novoUsuario === "") {
+    alert('Erro: Nome de usuário vazio!');
+  } else if (novaSenha === "") {
+    alert('Erro: Senha vazia!');
+  } else {
+    if (usuarios.some(user => user.username === novoUsuario)) {
+      alert("Usuário já cadastrado!");
+    } else {
+      usuarios.push({ username: novoUsuario, password: novaSenha }); // Adicionando o objeto de usuário com senha
+      alert("Usuário cadastrado com sucesso!");
+      console.log(usuarios);
+    }
+  }
+}
+
+document.querySelector(".login-form").addEventListener("submit", function(event) {
+  event.preventDefault();
+  fazerLogin();
+});
+
+function fazerLogin() {
+  var nomeUsuario = document.querySelector("input[name='username']").value;
+  var senhaUsuario = document.querySelector("input[name='password']").value;
+
+  var user = usuarios.find(user => user.username === nomeUsuario);
+
+  if (user && user.password === senhaUsuario) {
+    alert("Login bem-sucedido!");
+    window.location.href = 'sistema.html';
+  } else {
+    alert("Usuário não encontrado ou senha incorreta. Tente novamente ou cadastre-se.");
+  }
+}
+</script>
+</body>
+</html>

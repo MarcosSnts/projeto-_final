@@ -1,0 +1,309 @@
+2022-02-07T19:36:16.151Z In(05) vmx Log for VMware Player pid=2992 version=16.2.2 build=build-19200509 option=Release
+2022-02-07T19:36:16.151Z In(05) vmx The host is 64-bit.
+2022-02-07T19:36:16.151Z In(05) vmx Host codepage=windows-1252 encoding=windows-1252
+2022-02-07T19:36:16.151Z In(05) vmx Host is Windows 10 Pro, 64-bit (Build 19044.1503)
+2022-02-07T19:36:16.151Z In(05) vmx Host offset from UTC is +03:00.
+2022-02-07T19:36:16.136Z In(05) vmx VTHREAD 10744 "vmx"
+2022-02-07T19:36:16.138Z In(05) vmx LOCALE windows-1252 -> NULL User=416 System=416
+2022-02-07T19:36:16.138Z In(05) vmx Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2022-02-07T19:36:16.143Z In(05) vmx DictionaryLoad: Cannot open file "C:\Users\Aluno\AppData\Roaming\VMware\config.ini": Unknown error 2 (0x2).
+2022-02-07T19:36:16.143Z In(05) vmx Msg_Reset:
+2022-02-07T19:36:16.143Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\Users\Aluno\AppData\Roaming\VMware\config.ini": Unknown error 2 (0x2).
+2022-02-07T19:36:16.143Z In(05) vmx ----------------------------------------
+2022-02-07T19:36:16.143Z In(05) vmx ConfigDB: Failed to load C:\Users\Aluno\AppData\Roaming\VMware\config.ini
+2022-02-07T19:36:16.144Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("C:\Users\Aluno\Desktop\URSim_VIRTUAL-3.15.3.106223.vmpl", ...) failed, error: 2
+2022-02-07T19:36:16.144Z In(05) vmx OBJLIB-LIB: Objlib initialized.
+2022-02-07T19:36:16.144Z In(05) vmx DictionaryLoad: Cannot open file "C:\ProgramData\VMware\VMware Player\config.ini": Unknown error 2 (0x2).
+2022-02-07T19:36:16.144Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\ProgramData\VMware\VMware Player\config.ini": Unknown error 2 (0x2).
+2022-02-07T19:36:16.144Z In(05) vmx PREF Optional preferences file not found at C:\ProgramData\VMware\VMware Player\config.ini. Using default values.
+2022-02-07T19:36:16.145Z In(05) vmx DictionaryLoad: Cannot open file "C:\ProgramData\VMware\VMware Player\settings.ini": Unknown error 2 (0x2).
+2022-02-07T19:36:16.145Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\ProgramData\VMware\VMware Player\settings.ini": Unknown error 2 (0x2).
+2022-02-07T19:36:16.145Z In(05) vmx PREF Optional preferences file not found at C:\ProgramData\VMware\VMware Player\settings.ini. Using default values.
+2022-02-07T19:36:16.145Z In(05) vmx DictionaryLoad: Cannot open file "C:\ProgramData\VMware\VMware Player\config.ini": Unknown error 2 (0x2).
+2022-02-07T19:36:16.145Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\ProgramData\VMware\VMware Player\config.ini": Unknown error 2 (0x2).
+2022-02-07T19:36:16.145Z In(05) vmx PREF Optional preferences file not found at C:\ProgramData\VMware\VMware Player\config.ini. Using default values.
+2022-02-07T19:36:16.145Z In(05) vmx DictionaryLoad: Cannot open file "C:\Users\Aluno\AppData\Roaming\VMware\config.ini": Unknown error 2 (0x2).
+2022-02-07T19:36:16.145Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\Users\Aluno\AppData\Roaming\VMware\config.ini": Unknown error 2 (0x2).
+2022-02-07T19:36:16.145Z In(05) vmx PREF Optional preferences file not found at C:\Users\Aluno\AppData\Roaming\VMware\config.ini. Using default values.
+2022-02-07T19:36:16.145Z In(05) vmx UUID: SMBIOS UUID is reported as '80 4c d3 6a 13 7a e8 11-80 5a 54 a9 d6 13 42 00'.
+2022-02-07T19:36:16.148Z In(05) vmx lib/ssl: OpenSSL using RAND_OpenSSL for RAND
+2022-02-07T19:36:16.148Z In(05) vmx lib/ssl: protocol list tls1.2
+2022-02-07T19:36:16.148Z In(05) vmx lib/ssl: protocol list tls1.2 (openssl flags 0x36000000)
+2022-02-07T19:36:16.148Z In(05) vmx lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2022-02-07T19:36:16.148Z In(05) vmx lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2022-02-07T19:36:16.156Z In(05) vmx Hostname=SNCCH01LABF000
+2022-02-07T19:36:16.160Z In(05) vmx IP=fe80::24ba:e34b:e8c0:5443%5
+2022-02-07T19:36:16.160Z In(05) vmx IP=fe80::8542:a862:40a9:6aa6%15
+2022-02-07T19:36:16.160Z In(05) vmx IP=fe80::85e2:95c4:7519:7e05%16
+2022-02-07T19:36:16.160Z In(05) vmx IP=192.168.1.82
+2022-02-07T19:36:16.160Z In(05) vmx IP=192.168.111.1
+2022-02-07T19:36:16.160Z In(05) vmx IP=192.168.63.1
+2022-02-07T19:36:16.188Z In(05) vmx System uptime 10975843921 us
+2022-02-07T19:36:16.188Z In(05) vmx Command line: "C:\Program Files (x86)\VMware\VMware Player\x64\vmware-vmx.exe" "-T" "querytoken" "-ssnapshot.numRollingTiers=0" "-sRemoteDisplay.vnc.enabled=FALSE" "-s" "vmx.stdio.keep=TRUE" "-#" "product=4;name=VMware Player;version=16.2.2;buildnumber=19200509;licensename=VMware Player;licenseversion=16.0;" "-@" "pipe=\\.\pipe\vmxaec7f707331618ad;msgs=ui" "C:\Users\Aluno\Desktop\URSim_VIRTUAL-3.15.3.106223.vmx"
+2022-02-07T19:36:16.188Z In(05) vmx Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2022-02-07T19:36:16.210Z In(05) vmx WQPoolAllocPoll : pollIx = 1, signalHandle = 872
+2022-02-07T19:36:16.210Z In(05) vmx WQPoolAllocPoll : pollIx = 2, signalHandle = 880
+2022-02-07T19:36:16.210Z In(05) vmx VigorTransport listening on fd 812
+2022-02-07T19:36:16.210Z In(05) vmx Vigor_Init 1
+2022-02-07T19:36:16.210Z In(05) vmx Connecting 'ui' to pipe '\\.\pipe\vmxaec7f707331618ad' with user '(null)'
+2022-02-07T19:36:16.211Z In(05) vmx VMXVmdb: Local connection timeout: 60000 ms.
+2022-02-07T19:36:16.234Z In(05) vmx VmdbAddConnection: cnxPath=/db/connection/#1/, cnxIx=1
+2022-02-07T19:36:16.234Z In(05) vmx Vix: [mainDispatch.c:486]: VMAutomation: Initializing VMAutomation.
+2022-02-07T19:36:16.234Z In(05) vmx Vix: [mainDispatch.c:738]: VMAutomationOpenListenerSocket() listening
+2022-02-07T19:36:16.239Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2022-02-07T19:36:16.239Z In(05) vmx Transitioned vmx/execState/val to poweredOff
+2022-02-07T19:36:16.239Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2022-02-07T19:36:16.239Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1 additionalError=0
+2022-02-07T19:36:16.239Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1 additionalError=0
+2022-02-07T19:36:16.251Z In(05) vmx IOPL_VBSRunning: VBS is set to 0
+2022-02-07T19:36:16.251Z In(05) vmx IOCTL_VMX86_SET_MEMORY_PARAMS already set
+2022-02-07T19:36:16.252Z In(05) vmx FeatureCompat: No EVC masks.
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID vendor: GenuineIntel
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID family: 0x6 model: 0x9e stepping: 0x9
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID codename: Kaby Lake-S/H QS
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID name: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID level 00000000, 0: 0x00000016 0x756e6547 0x6c65746e 0x49656e69
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID level 00000001, 0: 0x000906e9 0x00100800 0x7ffafbff 0xbfebfbff
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID level 00000002, 0: 0x76036301 0x00f0b5ff 0x00000000 0x00c30000
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID level 00000004, 0: 0x1c004121 0x01c0003f 0x0000003f 0x00000000
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID level 00000004, 1: 0x1c004122 0x01c0003f 0x0000003f 0x00000000
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID level 00000004, 2: 0x1c004143 0x00c0003f 0x000003ff 0x00000000
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID level 00000004, 3: 0x1c03c163 0x03c0003f 0x00001fff 0x00000006
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID level 00000004, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00142120
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID level 00000006, 0: 0x000027f7 0x00000002 0x00000009 0x00000000
+2022-02-07T19:36:16.256Z In(05) vmx hostCPUID level 00000007, 0: 0x00000000 0x029c6fbf 0x00000000 0x9c002600
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 00000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000a, 0: 0x07300404 0x00000000 0x00000000 0x00000603
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000b, 1: 0x00000004 0x00000008 0x00000201 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000d, 0: 0x0000001f 0x00000440 0x00000440 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000d, 1: 0x0000000f 0x00000440 0x00000100 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000d, 2: 0x00000100 0x00000240 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000d, 3: 0x00000040 0x000003c0 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000d, 4: 0x00000040 0x00000400 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000d, 5: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000d, 6: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000d, 7: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000d, 8: 0x00000080 0x00000000 0x00000001 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 0000000f, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 00000010, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 00000010, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 00000010, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 00000010, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 00000011, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 00000012, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.260Z In(05) vmx hostCPUID level 00000012, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 00000012, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 00000012, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 00000013, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 00000014, 0: 0x00000001 0x0000000f 0x00000007 0x00000000
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 00000014, 1: 0x02490002 0x003f3fff 0x00000000 0x00000000
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 00000015, 0: 0x00000002 0x0000012c 0x00000000 0x00000000
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 00000016, 0: 0x00000e10 0x00001068 0x00000064 0x00000000
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000121 0x2c100800
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 80000002, 0: 0x65746e49 0x2952286c 0x726f4320 0x4d542865
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 80000003, 0: 0x37692029 0x3037372d 0x50432030 0x20402055
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 80000004, 0: 0x30362e33 0x007a4847 0x00000000 0x00000000
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x01006040 0x00000000
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000100
+2022-02-07T19:36:16.261Z In(05) vmx hostCPUID level 80000008, 0: 0x00003027 0x00000000 0x00000000 0x00000000
+2022-02-07T19:36:16.261Z In(05) vmx CPUID differences from hostCPUID.
+2022-02-07T19:36:16.261Z In(05) vmx Physical APIC IDs: 0-7
+2022-02-07T19:36:16.261Z In(05) vmx Physical X2APIC IDs: 0-7
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR       0x3a =                0x1
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x480 =   0xda040000000004
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x481 =       0x7f00000016
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x482 = 0xfff9fffe0401e172
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x483 =  0x1ffffff00036dff
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x484 =    0x3ffff000011ff
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x485 =         0x7004c1e7
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x486 =         0x80000021
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x487 =         0xffffffff
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x488 =             0x2000
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x489 =           0x3767ff
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x48a =               0x2e
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x48b =   0x5ffcff00000000
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x48c =      0xf0106734141
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x48d =       0x7f00000016
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x48e = 0xfff9fffe04006172
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x48f =  0x1ffffff00036dfb
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x490 =    0x3ffff000011fb
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x491 =                0x1
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x492 =                  0
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR 0xc0010114 =                  0
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR       0xce =         0x80000000
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x10a =                  0
+2022-02-07T19:36:16.261Z In(05) vmx Common: MSR      0x122 =                  0
+2022-02-07T19:36:16.261Z In(05) vmx VMMon_GetkHzEstimate: Calculated 3600001 kHz
+2022-02-07T19:36:16.261Z In(05) vmx TSC kHz estimates: vmmon 3600001, remembered 0, osReported 3600000. Using 3600001 kHz.
+2022-02-07T19:36:16.261Z In(05) vmx TSC first measured delta 288
+2022-02-07T19:36:16.261Z In(05) vmx TSC min delta 220
+2022-02-07T19:36:16.261Z In(05) vmx PTSC: RefClockToPTSC 0 @ 10000000Hz -> 0 @ 3600001000Hz
+2022-02-07T19:36:16.261Z In(05) vmx PTSC: RefClockToPTSC ((x * 3019899719) >> 23) + -37437280092567
+2022-02-07T19:36:16.261Z In(05) vmx PTSC: tscOffset -37517856294392
+2022-02-07T19:36:16.261Z In(05) vmx PTSC: using TSC
+2022-02-07T19:36:16.261Z In(05) vmx PTSC: hardware TSCs are synchronized.
+2022-02-07T19:36:16.261Z In(05) vmx PTSC: hardware TSCs may have been adjusted by the host.
+2022-02-07T19:36:16.261Z In(05) vmx PTSC: current PTSC=185154
+2022-02-07T19:36:16.269Z In(05) vmx WQPoolAllocPoll : pollIx = 3, signalHandle = 1052
+2022-02-07T19:36:16.303Z In(05) vmx ConfigCheck: No rules file found. Checks are disabled.
+2022-02-07T19:36:16.303Z In(05) vmx changing directory to C:\Users\Aluno\Desktop\.
+2022-02-07T19:36:16.303Z In(05) vmx Config file: C:\Users\Aluno\Desktop\URSim_VIRTUAL-3.15.3.106223.vmx
+2022-02-07T19:36:16.303Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2022-02-07T19:36:16.303Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1 additionalError=0
+2022-02-07T19:36:16.345Z Wa(03) vmx PowerOn
+2022-02-07T19:36:16.345Z In(05) vmx VMX_PowerOn: VMX build 19200509, UI build 19200509
+2022-02-07T19:36:16.345Z In(05) vmx HostWin32: WIN32 NUMA node 0, CPU mask 0x00000000000000ff
+2022-02-07T19:36:16.350Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1 additionalError=0
+2022-02-07T19:36:16.352Z In(05) vmx VMXSTATS: Successfully created statsfile: vm.scoreboard
+2022-02-07T19:36:16.352Z In(05) vmx VMXSTATS: Update Product Information: VMware Player	16.2.2	build-19200509	Release  TotalBlockSize: 64
+2022-02-07T19:36:16.352Z In(05) vmx HOST Windows version 10.0, build 19044, platform 2, ""
+2022-02-07T19:36:16.352Z In(05) vmx DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Player\settings.ini
+2022-02-07T19:36:16.352Z In(05) vmx DICT --- NON PERSISTENT (null)
+2022-02-07T19:36:16.352Z In(05) vmx DICT --- USER PREFERENCES C:\Users\Aluno\AppData\Roaming\VMware\preferences.ini
+2022-02-07T19:36:16.352Z In(05) vmx DICT pref.keyboardAndMouse.vmHotKey.enabled = "FALSE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT pref.keyboardAndMouse.vmHotKey.count = "0"
+2022-02-07T19:36:16.352Z In(05) vmx DICT pref.vmplayer.firstRunDismissedVersion = "16.2.2"
+2022-02-07T19:36:16.352Z In(05) vmx DICT   pref.lastUpdateCheckSec = "1644261988"
+2022-02-07T19:36:16.352Z In(05) vmx DICT      pref.mruVM0.filename = "C:\Users\Aluno\Desktop\URSim_VIRTUAL-3.15.3.106223.vmx"
+2022-02-07T19:36:16.352Z In(05) vmx DICT   pref.mruVM0.displayName = "URSim_VIRTUAL-3.15.3.106223"
+2022-02-07T19:36:16.352Z In(05) vmx DICT         pref.mruVM0.index = "0"
+2022-02-07T19:36:16.352Z In(05) vmx DICT --- USER DEFAULTS C:\Users\Aluno\AppData\Roaming\VMware\config.ini
+2022-02-07T19:36:16.352Z In(05) vmx DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Player\config.ini
+2022-02-07T19:36:16.352Z In(05) vmx DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Player\config.ini
+2022-02-07T19:36:16.352Z In(05) vmx DICT --- NONPERSISTENT
+2022-02-07T19:36:16.352Z In(05) vmx DICT  snapshot.numRollingTiers = "0"
+2022-02-07T19:36:16.352Z In(05) vmx DICT RemoteDisplay.vnc.enabled = "FALSE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT             gui.available = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT --- COMMAND LINE
+2022-02-07T19:36:16.352Z In(05) vmx DICT  snapshot.numRollingTiers = "0"
+2022-02-07T19:36:16.352Z In(05) vmx DICT RemoteDisplay.vnc.enabled = "FALSE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT             gui.available = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT --- RECORDING
+2022-02-07T19:36:16.352Z In(05) vmx DICT  snapshot.numRollingTiers = "0"
+2022-02-07T19:36:16.352Z In(05) vmx DICT RemoteDisplay.vnc.enabled = "FALSE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT             gui.available = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT --- CONFIGURATION C:\Users\Aluno\Desktop\URSim_VIRTUAL-3.15.3.106223.vmx 
+2022-02-07T19:36:16.352Z In(05) vmx DICT            config.version = "8"
+2022-02-07T19:36:16.352Z In(05) vmx DICT         virtualHW.version = "12"
+2022-02-07T19:36:16.352Z In(05) vmx DICT               vcpu.hotadd = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT             scsi0.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT          scsi0.virtualDev = "lsilogic"
+2022-02-07T19:36:16.352Z In(05) vmx DICT             sata0.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT                   memsize = "1024"
+2022-02-07T19:36:16.352Z In(05) vmx DICT                mem.hotadd = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT           scsi0:0.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT          scsi0:0.fileName = "URSim_VIRTUAL-3.15.3.106223.vmdk"
+2022-02-07T19:36:16.352Z In(05) vmx DICT           sata0:1.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT          sata0:1.fileName = "/dev/cdrom"
+2022-02-07T19:36:16.352Z In(05) vmx DICT        sata0:1.deviceType = "cdrom-raw"
+2022-02-07T19:36:16.352Z In(05) vmx DICT         ethernet0.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT  ethernet0.connectionType = "nat"
+2022-02-07T19:36:16.352Z In(05) vmx DICT   ethernet0.wakeOnPcktRcv = "FALSE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT     ethernet0.addressType = "generated"
+2022-02-07T19:36:16.352Z In(05) vmx DICT               usb.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT              ehci.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT        ehci.pciSlotNumber = "0"
+2022-02-07T19:36:16.352Z In(05) vmx DICT             sound.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT            sound.fileName = "-1"
+2022-02-07T19:36:16.352Z In(05) vmx DICT          sound.autodetect = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT              mks.enable3d = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT     svga.graphicsMemoryKB = "786432"
+2022-02-07T19:36:16.352Z In(05) vmx DICT           serial0.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT          serial0.fileType = "thinprint"
+2022-02-07T19:36:16.352Z In(05) vmx DICT        pciBridge0.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT        pciBridge4.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT     pciBridge4.virtualDev = "pcieRootPort"
+2022-02-07T19:36:16.352Z In(05) vmx DICT      pciBridge4.functions = "8"
+2022-02-07T19:36:16.352Z In(05) vmx DICT        pciBridge5.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT     pciBridge5.virtualDev = "pcieRootPort"
+2022-02-07T19:36:16.352Z In(05) vmx DICT      pciBridge5.functions = "8"
+2022-02-07T19:36:16.352Z In(05) vmx DICT        pciBridge6.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT     pciBridge6.virtualDev = "pcieRootPort"
+2022-02-07T19:36:16.352Z In(05) vmx DICT      pciBridge6.functions = "8"
+2022-02-07T19:36:16.352Z In(05) vmx DICT        pciBridge7.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT     pciBridge7.virtualDev = "pcieRootPort"
+2022-02-07T19:36:16.352Z In(05) vmx DICT      pciBridge7.functions = "8"
+2022-02-07T19:36:16.352Z In(05) vmx DICT             vmci0.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT             hpet0.present = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT usb.vbluetooth.startConnected = "TRUE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT               displayName = "URSim_VIRTUAL-3.15.3.106223"
+2022-02-07T19:36:16.352Z In(05) vmx DICT                   guestOS = "ubuntu"
+2022-02-07T19:36:16.352Z In(05) vmx DICT                     nvram = "URSim_VIRTUAL-3.15.3.106223.nvram"
+2022-02-07T19:36:16.352Z In(05) vmx DICT virtualHW.productCompatibility = "hosted"
+2022-02-07T19:36:16.352Z In(05) vmx DICT          gui.exitOnCLIHLT = "FALSE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT        powerType.powerOff = "soft"
+2022-02-07T19:36:16.352Z In(05) vmx DICT         powerType.powerOn = "soft"
+2022-02-07T19:36:16.352Z In(05) vmx DICT         powerType.suspend = "soft"
+2022-02-07T19:36:16.352Z In(05) vmx DICT           powerType.reset = "soft"
+2022-02-07T19:36:16.352Z In(05) vmx DICT        extendedConfigFile = "URSim_VIRTUAL-3.15.3.106223.vmxf"
+2022-02-07T19:36:16.352Z In(05) vmx DICT           floppy0.present = "FALSE"
+2022-02-07T19:36:16.352Z In(05) vmx DICT --- USER DEFAULTS C:\Users\Aluno\AppData\Roaming\VMware\config.ini 
+2022-02-07T19:36:16.352Z In(05) vmx DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2022-02-07T19:36:16.352Z In(05) vmx DICT installerDefaults.simplifiedUI = "no"
+2022-02-07T19:36:16.352Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2022-02-07T19:36:16.352Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "254"
+2022-02-07T19:36:16.352Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2022-02-07T19:36:16.352Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "yes"
+2022-02-07T19:36:16.352Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "254"
+2022-02-07T19:36:16.352Z In(05) vmx DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2022-02-07T19:36:16.352Z In(05) vmx DICT installerDefaults.simplifiedUI = "no"
+2022-02-07T19:36:16.352Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2022-02-07T19:36:16.352Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "254"
+2022-02-07T19:36:16.352Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2022-02-07T19:36:16.352Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "yes"
+2022-02-07T19:36:16.352Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "254"
+2022-02-07T19:36:16.352Z In(05) vmx DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini 
+2022-02-07T19:36:16.352Z In(05) vmx DICT          printers.enabled = "FALSE"
+2022-02-07T19:36:16.353Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Player\isoimages_manifest.txt.sig failed: Could not find the file
+2022-02-07T19:36:16.353Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Player\isoimages_manifest.txt.sig', ignoring.
+2022-02-07T19:36:16.353Z In(05) vmx ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2022-02-07T19:36:16.353Z In(05) vmx ToolsISO: Selected Tools ISO 'linux.iso' for 'ubuntu' guest.
+2022-02-07T19:36:16.354Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2022-02-07T19:36:16.354Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("C:\Users\Aluno\Desktop\URSim_VIRTUAL-3.15.3.106223.nvram", ...) failed, error: 2
+2022-02-07T19:36:16.355Z In(05) vmx The following VT-x features are required for VT-x support in VMware Player; however, these features are not available on this host:
+2022-02-07T19:36:16.355Z In(05) vmx Module 'MonitorMode' power on failed.
+2022-02-07T19:36:16.355Z In(05) vmx VMX_PowerOn: ModuleTable_PowerOn = 0
+2022-02-07T19:36:16.355Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2022-02-07T19:36:16.355Z In(05) vmx VMXSTATS: Ready to cleanup and munmap 22C31F30000.
+2022-02-07T19:36:16.355Z In(05) vmx 
+2022-02-07T19:36:16.355Z In(05)+ vmx Power on failure messages: This host supports Intel VT-x, but Intel VT-x is disabled.
+2022-02-07T19:36:16.355Z In(05)+ vmx Intel VT-x might be disabled if it has been disabled in the BIOS/firmware settings or the host has not been power-cycled since changing this setting.
+2022-02-07T19:36:16.355Z In(05)+ vmx (1) Verify that the BIOS/firmware settings enable Intel VT-x and disable 'trusted execution.'
+2022-02-07T19:36:16.355Z In(05)+ vmx (2) Power-cycle the host if either of these BIOS/firmware settings have been changed.
+2022-02-07T19:36:16.355Z In(05)+ vmx (3) Power-cycle the host if you have not done so since installing VMware Player.
+2022-02-07T19:36:16.355Z In(05)+ vmx (4) Update the host's BIOS/firmware to the latest version.
+2022-02-07T19:36:16.355Z In(05)+ vmx This host does not support "Intel EPT" hardware assisted MMU virtualization.
+2022-02-07T19:36:16.355Z In(05)+ vmx VMware Player does not support the user level monitor on this host.
+2022-02-07T19:36:16.355Z In(05)+ vmx Module 'MonitorMode' power on failed.
+2022-02-07T19:36:16.355Z In(05)+ vmx Failed to start the virtual machine.
+2022-02-07T19:36:16.355Z In(05)+ vmx 
+2022-02-07T19:36:16.356Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2022-02-07T19:36:16.356Z In(05) vmx Transitioned vmx/execState/val to poweredOff
+2022-02-07T19:36:16.356Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=0 additionalError=0
+2022-02-07T19:36:16.356Z In(05) vmx Vix: [mainDispatch.c:4244]: Error VIX_E_FAIL in VMAutomation_ReportPowerOpFinished(): Unknown error
+2022-02-07T19:36:16.356Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2022-02-07T19:36:16.356Z In(05) vmx Transitioned vmx/execState/val to poweredOff
+2022-02-07T19:36:16.356Z In(05) vmx WQPoolFreePoll : pollIx = 3, signalHandle = 1052
+2022-02-07T19:36:16.357Z In(05) vmx Vix: [mainDispatch.c:815]: VMAutomation_LateShutdown()
+2022-02-07T19:36:16.357Z In(05) vmx Vix: [mainDispatch.c:770]: VMAutomationCloseListenerSocket. Closing listener socket.
+2022-02-07T19:36:16.357Z In(05) vmx Flushing VMX VMDB connections
+2022-02-07T19:36:16.357Z In(05) vmx VmdbDbRemoveCnx: Removing Cnx from Db for '/db/connection/#1/'
+2022-02-07T19:36:16.357Z In(05) vmx VmdbCnxDisconnect: Disconnect: closed pipe for pub cnx '/db/connection/#1/' (0)
+2022-02-07T19:36:16.357Z In(05) vmx VigorTransport_ServerDestroy: server destroyed.
+2022-02-07T19:36:16.357Z In(05) vmx WQPoolFreePoll : pollIx = 2, signalHandle = 880
+2022-02-07T19:36:16.357Z In(05) vmx WQPoolFreePoll : pollIx = 1, signalHandle = 872
+2022-02-07T19:36:16.362Z In(05) vmx VMX exit (0).
+2022-02-07T19:36:16.363Z In(05) vmx OBJLIB-LIB: ObjLib cleanup done.

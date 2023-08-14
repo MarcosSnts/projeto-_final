@@ -1,0 +1,34 @@
+# Disk DescriptorFile
+version=1
+CID=fb665ee1
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 4192256 SPARSE "URSim_VIRTUAL-3.15.3.106223-s001.vmdk"
+RW 4192256 SPARSE "URSim_VIRTUAL-3.15.3.106223-s002.vmdk"
+RW 4192256 SPARSE "URSim_VIRTUAL-3.15.3.106223-s003.vmdk"
+RW 4192256 SPARSE "URSim_VIRTUAL-3.15.3.106223-s004.vmdk"
+RW 4192256 SPARSE "URSim_VIRTUAL-3.15.3.106223-s005.vmdk"
+RW 10240 SPARSE "URSim_VIRTUAL-3.15.3.106223-s006.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "ide"
+ddb.comment = ""
+ddb.encoding = "windows-1252"
+ddb.geometry.biosCylinders = "1024"
+ddb.geometry.biosHeads = "255"
+ddb.geometry.biosSectors = "63"
+ddb.geometry.cylinders = "16383"
+ddb.geometry.heads = "16"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "3c116f4715b4cc125e771de9fb665ee1"
+ddb.toolsInstallType = "0"
+ddb.toolsVersion = "2147483647"
+ddb.uuid.image = "87248791-8ecb-4bd2-bb83-6e018e767e7c"
+ddb.uuid.modification = "2653f58a-0a4b-48a6-9895-a35fcbfb4dd0"
+ddb.uuid.parent = "00000000-0000-0000-0000-000000000000"
+ddb.uuid.parentmodification = "00000000-0000-0000-0000-000000000000"
+ddb.virtualHWVersion = "4"
